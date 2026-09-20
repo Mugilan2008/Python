@@ -1,0 +1,5 @@
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+even_indexed = sorted(numbers[0::2])
+odd_indexed = sorted(numbers[1::2])
+print("Sorted Even-indexed elements:", even_indexed)
+print("Sorted Odd-indexed elements:", odd_indexed)
